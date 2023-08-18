@@ -142,6 +142,7 @@ CREATE SEQUENCE re_ID
     INCREMENT BY 1
     CACHE 20
     NOORDER;
+    
 CREATE OR REPLACE TRIGGER increase_RE_ID
 BEFORE INSERT ON RESULT
 FOR EACH ROW
@@ -152,6 +153,6 @@ BEGIN
 END;
 /
 
-@"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\insertValues.sql"
-
+--@"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\insertValues.sql"
 -- SELECT mana_ID.NEXTVAL FROM DUAL;
+@"F:\Github\DDS_Project\Admission-Coaching-Management\insertValues.sql"

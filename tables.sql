@@ -97,4 +97,5 @@ CREATE TABLE RESULT(
 	FOREIGN KEY(st_id) REFERENCES STUDENT(st_id)
 );
 
-@"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\triggers_sequence.sql"
+--@"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\triggers_sequence.sql"
+@"F:\Github\DDS_Project\Admission-Coaching-Management\triggers_sequence.sql"
