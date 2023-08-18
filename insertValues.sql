@@ -51,14 +51,11 @@ INSERT INTO SCHEDULE (sc_weekDay, sc_activityType, sc_startingTime, c_id, b_id, 
 -- EXAM 701
 -- 3 
 INSERT INTO EXAM (e_type, e_date, e_duration, e_totalMarks, e_time, c_id) 
-	VALUES ('WRITTEN', TO_DATE('18-08-2023', 'DD-MM-YYYY'), '3 Hour', 70 ,'8:00 AM', 302);
+	VALUES ('WRITTEN', TO_DATE('18-08-2023', 'DD-MM-YYYY'), '3 Hour', 70 ,'8:00 AM', 301);
 
 -- RESULT 801
 -- 7 19020
 INSERT INTO RESULT (e_id, st_id, r_obtainedMarks, r_grade) 
 	VALUES (701, 190204001, 67, 'B+');
-
-
-
 
 
