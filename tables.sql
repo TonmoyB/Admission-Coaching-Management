@@ -87,20 +87,18 @@ CREATE TABLE EXAM(
 	e_totalMarks NUMBER,
 	e_time VARCHAR2(15),
 	c_id NUMBER,
-	FOREIGN KEY(c_id) REFERENCES COURSE(s_id)
+	FOREIGN KEY(c_id) REFERENCES COURSE(c_id)
 );
 
-/*
-CREATE TABLE RESULTS(
+
+CREATE TABLE RESULT(
 	r_id NUMBER PRIMARY KEY,
 	e_id NUMBER,
 	st_id NUMBER,
 	r_obtainedMarks NUMBER,
 	r_grade VARCHAR2(5),
-	FOREIGN KEY(e_id) REFERENCES EXAMS(e_id),	
-	FOREIGN KEY(st_id) REFERENCES STUDENTS(st_id)
+	FOREIGN KEY(e_id) REFERENCES EXAM(e_id),	
+	FOREIGN KEY(st_id) REFERENCES STUDENT(st_id)
 );
 
-*/
-
-@"C:\Users\Tech Land\Desktop\Admission Coaching Management\triggers_sequence.sql"
+@"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\triggers_sequence.sql"

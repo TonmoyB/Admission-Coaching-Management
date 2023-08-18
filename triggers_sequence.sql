@@ -135,6 +135,23 @@ BEGIN
 END;
 /
 
-@"C:\Users\Tech Land\Desktop\Admission Coaching Management\insertValues.sql"
+-- Result ID
+DROP SEQUENCE re_ID;
+CREATE SEQUENCE re_ID
+    START WITH 801
+    INCREMENT BY 1
+    CACHE 20
+    NOORDER;
+CREATE OR REPLACE TRIGGER increase_RE_ID
+BEFORE INSERT ON RESULT
+FOR EACH ROW
+BEGIN
+    SELECT re_ID.NEXTVAL
+    INTO :new.r_id
+    FROM DUAL;
+END;
+/
+
+@"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\insertValues.sql"
 
 -- SELECT mana_ID.NEXTVAL FROM DUAL;
