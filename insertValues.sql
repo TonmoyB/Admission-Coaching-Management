@@ -12,15 +12,15 @@ INSERT INTO MANAGER (m_name, m_phoneNo, m_email)
 
 -- BRANCH 201
 INSERT INTO BRANCH (br_name, br_phoneNo, br_location, m_id) 
-	VALUES ('MOTIJHEEL', '01630685251', 'Dhaka', 101);
+	VALUES ('MOTIJHEEL', '01630685251', 'DHAKA', 101);
 INSERT INTO BRANCH (br_name, br_phoneNo, br_location, m_id) 
-	VALUES ('FARMGATE', '01309040483', 'Dhaka', 102);
+	VALUES ('FARMGATE', '01309040483', 'DHAKA', 102);
 INSERT INTO BRANCH (br_name, br_phoneNo, br_location, m_id) 
-	VALUES ('NOTUN BAZAR', '01630685252', 'Rajshahi', 101);
+	VALUES ('NOTUN BAZAR', '01630685252', 'RAJSHAHI', 101);
 INSERT INTO BRANCH (br_name, br_phoneNo, br_location, m_id) 
-	VALUES ('NEWMARKET', '01309040484', 'Rajshahi', 102);
+	VALUES ('NEWMARKET', '01309040484', 'RAJSHAHI', 102);
 INSERT INTO BRANCH (br_name, br_phoneNo, br_location, m_id) 
-	VALUES ('RING ROAD', '01708040483', 'Dhaka', 101);
+	VALUES ('RING ROAD', '01708040483', 'DHAKA', 101);
 
 -- COURSE 301
 INSERT INTO COURSE (c_name, c_fee_TAKA) 
@@ -48,15 +48,15 @@ INSERT INTO BATCH (b_name, c_id)
 	
 -- TEACHER 501
 INSERT INTO TEACHER (t_name, t_email, t_phoneNo, t_salary, t_salaryStat, br_id) 
-	VALUES ('TONMOY HOSSAIN DIHAN', 'dihan.cse@aust.edu', '01234567890', 50000, 'PAID', 201);
+	VALUES ('TONMOY HOSSAIN DIHAN', 'dihan.cse@aust.edu', '01234567890', 50000, 'UNPAID', 203);
 INSERT INTO TEACHER (t_name, t_email, t_phoneNo, t_salary, t_salaryStat, br_id) 
 	VALUES ('NAWSHIN NAWAR ARONY', 'arony.cse@aust.edu', '01769548789', 50000, 'PAID', 202);
 INSERT INTO TEACHER (t_name, t_email, t_phoneNo, t_salary, t_salaryStat, br_id) 
 	VALUES ('ZARIN TASNIM SHEJUTI', 'shejuti.cse@aust.edu', '01734567890', 50000, 'PAID', 201);
 INSERT INTO TEACHER (t_name, t_email, t_phoneNo, t_salary, t_salaryStat, br_id) 
-	VALUES ('SANZANA KARIM LORA', 'lora.cse@aust.edu', '01669548789', 50000, 'PAID', 202);	
+	VALUES ('SANZANA KARIM LORA', 'lora.cse@aust.edu', '01669548789', 50000, 'UNPAID', 202);	
 INSERT INTO TEACHER (t_name, t_email, t_phoneNo, t_salary, t_salaryStat, br_id) 
-	VALUES ('JOY SAHA', 'joy.cse@aust.edu', '01233367890', 50000, 'PAID', 201);
+	VALUES ('JOY SAHA', 'joy.cse@aust.edu', '01233367890', 50000, 'UNPAID', 201);
 	
 -- STUDENT 190204001
 -- 3 4 2
