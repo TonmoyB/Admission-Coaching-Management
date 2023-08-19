@@ -1,3 +1,7 @@
+DROP TABLE TEACHER1_ST2 CASCADE CONSTRAINTS;
+DROP TABLE TEACHER2_ST2 CASCADE CONSTRAINTS;
+DROP TABLE STUDENT1_ST2 CASCADE CONSTRAINTS;
+
 CREATE TABLE TEACHER1_ST2 AS 
 SELECT 
     T.t_id,
@@ -36,3 +40,23 @@ JOIN
     BRANCH BR ON T.br_id = BR.br_id
 WHERE 
     T.t_salaryStat = 'PAID' AND BR.br_location = 'RAJSHAHI';
+
+
+CREATE TABLE STUDENT1_ST2 AS 
+SELECT 
+    ST.st_id,
+    ST.st_name,
+    ST.st_email,
+    ST.st_phoneNo,
+	ST.c_id,
+	ST.b_id,
+    BR.br_id AS branch_id,
+    BR.br_name AS branch_name,
+    BR.br_location,
+	BR.br_phoneNo
+FROM 
+    STUDENT ST
+JOIN 
+    BRANCH BR ON ST.br_id = BR.br_id
+WHERE 
+    BR.br_location = 'RAJSHAHI';
