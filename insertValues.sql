@@ -67,9 +67,9 @@ INSERT INTO STUDENT (st_name, st_email, st_phoneNo, c_id, b_id, br_id)
 INSERT INTO STUDENT (st_name, st_email, st_phoneNo, c_id, b_id, br_id) 
 	VALUES ('Sifat Ahmed', '190204006@aust.edu', '01672797320', 301, 401, 201);
 INSERT INTO STUDENT (st_name, st_email, st_phoneNo, c_id, b_id, br_id) 
-	VALUES ('Animesh Das', '190204058@aust.edu', '01521556456', 302, 402, 202);
+	VALUES ('Animesh Das', '190204058@aust.edu', '01521556456', 302, 402, 203);
 INSERT INTO STUDENT (st_name, st_email, st_phoneNo, c_id, b_id, br_id) 
-	VALUES ('Marzia Binta Monir', '190204114@aust.edu', '01537201029', 302, 402, 202);
+	VALUES ('Marzia Binta Monir', '190204114@aust.edu', '01537201029', 302, 402, 204);
 
 -- SCHEDULE 601
 -- 3 4 5
