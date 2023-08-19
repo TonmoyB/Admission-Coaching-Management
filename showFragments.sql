@@ -1,0 +1,4 @@
+select sum(t_salary)
+  from TEACHER1_ST1;
+
+select T_ID, T_NAME, T_PHONENO FROM TEACHER1_ST1 WHERE BRANCH_NAME = 'MOTIJHEEL';
