@@ -2,6 +2,8 @@ SET SERVEROUTPUT ON;
 SET VERIFY OFF;
 /*
 
+BRANCHWIISE INSERTION 
+
 3/4 ta procwdure lagbe 
 
 i u d  operation
@@ -9,6 +11,7 @@ i u d  operation
 both way connection
 
 input diye function kaj krle function add korbo
+
 */
 CREATE OR REPLACE PACKAGE ACM AS
 	PROCEDURE showTeacherofBranch();
