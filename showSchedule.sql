@@ -14,8 +14,6 @@ declare
     ac varchar2(25) := '&actype';
 
 begin
-
     global_Features.show_schedule(d,ac);
-
 end;
 /

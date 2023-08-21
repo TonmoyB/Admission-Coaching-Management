@@ -4,8 +4,7 @@ Run in this sequence
 
 tables -> (triggers_sequence -> insertValues) automatically runs
 
-showAllTables
-
+show global Table
 
 global features -> show Schedules
 
