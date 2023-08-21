@@ -23,7 +23,7 @@ CREATE OR REPLACE PACKAGE BODY site_Features AS
     PROCEDURE show_unp_teachers(b IN varchar2)
     IS
         tid NUMBER := 0;
-        tname varchar2;
+        tname varchar2(25);
         tphone NUMBER;
 
     BEGIN
