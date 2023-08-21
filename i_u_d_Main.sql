@@ -12,6 +12,7 @@ CREATE OR REPLACE PACKAGE BODY insert_TO_Tables AS
     begin
       INSERT INTO COURSE (c_name, c_fee_TAKA) 
       VALUES (n, f);
+      commit;
     end insertCourse;
 
 END insert_TO_Tables;
@@ -30,6 +31,7 @@ CREATE OR REPLACE PACKAGE BODY update_Tables AS
         UPDATE COURSE
         SET c_name = n, c_fee_TAKA = f
         WHERE c_id = cI;
+        commit;
     END updateCourse;
 END update_Tables;
 /
@@ -45,6 +47,7 @@ CREATE OR REPLACE PACKAGE BODY delete_Tables AS
     BEGIN
         DELETE COURSE
         WHERE c_id = cI;
+        commit;
     END deleteCourse;
 END delete_Tables;
 /

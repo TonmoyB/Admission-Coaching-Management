@@ -2,9 +2,9 @@ SET SERVEROUTPUT ON;
 SET VERIFY OFF;
 
 ACCEPT choice NUMBER PROMPT "1. Insert || 2. Update || 3. Delete || ???"
-ACCEPT c_ID CHAR PROMPT "Course ID(Only for Update/Delete): "
-ACCEPT c_Name CHAR PROMPT "Course Name:(Give anything if Deleting)";
-ACCEPT c_Fee NUMBER PROMPT "Course Fee:(Give anything if Deleting)";
+ACCEPT c_ID CHAR PROMPT "Course ID(Only for Update/Delete) 3__: "
+ACCEPT c_Name CHAR PROMPT "Course Name_(Give anything if Deleting): ";
+ACCEPT c_Fee NUMBER PROMPT "Course Fee_(Give anything if Deleting): ";
 
 declare
     cid NUMBER := &c_ID;
@@ -23,12 +23,12 @@ begin
         DBMS_OUTPUT.PUT_LINE('Updating');
         update_Tables.updateCourse(cid, cName, cFee);
     when 3 then 
+    
         DBMS_OUTPUT.PUT_LINE('Deleted :(');
         delete_Tables.deleteCourse(cid);
     else 
         DBMS_OUTPUT.PUT_LINE('Wrong Choice');
   end case;
   
-
 end;
 /
