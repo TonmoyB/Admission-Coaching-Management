@@ -153,6 +153,7 @@ BEGIN
 END;
 /
 
+commit;
 --@"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\insertValues.sql"
 -- SELECT mana_ID.NEXTVAL FROM DUAL;
 @"F:\Github\DDS_Project\Admission-Coaching-Management\insertValues.sql"

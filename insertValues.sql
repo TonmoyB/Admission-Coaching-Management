@@ -110,3 +110,4 @@ INSERT INTO RESULT (e_id, st_id, r_obtainedMarks, r_grade)
 INSERT INTO RESULT (e_id, st_id, r_obtainedMarks, r_grade) 
 	VALUES (702, 190204005, 70, 'A-');
 
+commit;
