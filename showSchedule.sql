@@ -1,3 +1,6 @@
+@"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\global_Features.sql"
+--change 
+-- @"F:\Varsity\4.1\Lab\CSE4126\Admission Coaching Management\global_Features.sql"
 SET SERVEROUTPUT ON;
 SET VERIFY OFF;
 
